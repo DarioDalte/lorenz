@@ -131,10 +131,12 @@ function Algorithm() {
         </p>
         <div className={`${classes.container} img-container`}>
           <p className={`description ${classes.book} img-text`}>
-            Il ricevente poteva ricevere il <b>plain text</b> utilizzando una
-            macchina simile e impostando lo stesso punto di inizio dei rotori in
-            modo tale che la macchina avrebbe generato la stessa stringa
-            generata dalla macchina del mittente. <br />
+            Il ricevente avrebbe direttamento visto il <b>plain text</b>, nel
+            caso in cui stesse utilizzando una macchina simile e abbia impostato
+            lo stesso punto di partenza dei rotori del mittente. <br />
+            <br /> Così facendo, la macchina del ricevente avrebbe generato la
+            stessa stringa generata dalla macchina del mittente, per poi fare
+            modulo-2 tra essa e il testo crittografato ricevuto. <br />
             <br />
             Il punto di inizio lo si sceglieva basandosi su una tabella con 12
             colonne (una per ogni rotore), nell{"'"}esempio in foto, il primo
@@ -142,7 +144,8 @@ function Algorithm() {
             <b>{"' 42 '"}</b> e così via... <br /> <br />
             Successivamente bisognava trasmettere al ricevente le lettere, in
             chiaro, corrispondenti ai numeri quindi H, L, E ma utilizzando l
-            {"'"}alfabeto fonetico tedesco, quindi invieremo: Heinrich, Ludwig, Emil ecc...
+            {"'"}alfabeto fonetico tedesco, quindi invieremo: Heinrich, Ludwig,
+            Emil ecc...
           </p>
           <div className={`${classes["img-container"]} ${classes["img-text"]}`}>
             <Image
@@ -167,10 +170,11 @@ function Algorithm() {
         </p>
 
         <p className="description">
-          Per evitare che la stringa generata casualmente non si ripetesse
-          troppo spesso, decisero di creare due set da cinque rotori ciascuno,
-          quindi essenzialmente, venivano generati due caratteri casuali che poi
-          venivano aggiunti al carattere in chiaro tramite modulo-2. <br />
+          Per evitare che la stringa generata non si ripetesse troppo spesso,
+          decisero di creare due set da cinque rotori ciascuno, quindi
+          essenzialmente, venivano generati due caratteri, in base alla
+          posizioen iniziale dei rotori, che poi venivano aggiunti al carattere
+          in chiaro tramite modulo-2. <br />
           <br />
           Infine per un maggior miscuglio vennero aggiunti due rotori che
           cambiavano ogni volta che il secondo set di rotori cambiava.
