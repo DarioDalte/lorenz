@@ -147,7 +147,7 @@ function Algorithm() {
           <div className={`${classes["img-container"]} ${classes["img-text"]}`}>
             <Image
               className={classes["img"]}
-              src="/spruchtafel.PNG"
+              src="/spruchtafel.png"
               alt="Spruchtafel"
               width={450}
               height={550}
