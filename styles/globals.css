@@ -84,4 +84,8 @@ td, th {
   .subtitle{
     text-align: center;
   }
+
+  ul{
+    width: 100% !important;
+  }
 }
