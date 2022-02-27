@@ -28,7 +28,7 @@ function TryLorenz() {
           crittografati. <br />
           <br />
           Tale procedura si può provare direttamente su un simulatore online che
-          si può trovare{" "}
+          è possibile trovare{" "}
           <Link href="https://lorenz.virtualcolossus.co.uk/LorenzSZ/">
             <a className={classes.link} target="_blank">
               qui
@@ -41,7 +41,7 @@ function TryLorenz() {
           Lorenz, premendo la levetta centrale in modo tale da portarla su{" "}
           <b>Aus</b>.
           <br />
-          Così facendo saremo in grando di comunicare in plain text.
+          Così facendo saremo in grado di comunicare in plain text.
         </p>
         <h2 className="subtitle">Secondo passo</h2>
         <p className="description">
@@ -76,7 +76,7 @@ function TryLorenz() {
         <h2 className="subtitle">Sesto passo</h2>
         <p className="description">
           Infine, accendiamo la macchina Lorenz, scriviamo il nostro testo e
-          potremo vedere il testo cifrato nella riga <b>{"'Send/Recv'"}</b>.
+          potremo vedere il risultato cifrato nella riga <b>{"'Send/Recv'"}</b>.
         </p>
         <div className={classes["img-text"]}>
           <p className={classes["paragraph"]}>Nella foto vediamo i campi:</p>

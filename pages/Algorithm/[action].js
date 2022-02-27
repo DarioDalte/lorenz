@@ -131,7 +131,7 @@ function Algorithm() {
         </p>
         <div className={`${classes.container} img-container`}>
           <p className={`description ${classes.book} img-text`}>
-            Il ricevente avrebbe direttamento visto il <b>plain text</b>, nel
+            Il ricevente avrebbe direttamente visto il <b>plain text</b>, nel
             caso in cui stesse utilizzando una macchina simile e abbia impostato
             lo stesso punto di partenza dei rotori del mittente. <br />
             <br /> Così facendo, la macchina del ricevente avrebbe generato la
