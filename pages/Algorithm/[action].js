@@ -129,8 +129,8 @@ function Algorithm() {
           generato una sequenza casuale di caratteri che avrebbe poi aggiunto al
           messaggio da inviare.
         </p>
-        <div className={classes.container}>
-          <p className={`description ${classes.book}`}>
+        <div className={`${classes.container} img-container`}>
+          <p className={`description ${classes.book} img-text`}>
             Il ricevente poteva ricevere il <b>plain text</b> utilizzando una
             macchina simile e impostando lo stesso punto di inizio dei rotori in
             modo tale che la macchina avrebbe generato la stessa stringa

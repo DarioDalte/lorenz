@@ -30,8 +30,8 @@ export default function Home() {
           segrete realizzate durante la seconda guerra mondiale su richiesta
           delle autorità militari del Terzo Reich
         </p>
-        <div className={classes.container}>
-          <div className={classes["container__left"]}>
+        <div className={`${classes.container} img-container`}>
+          <div className={`${classes["container__left"]} img-text `}>
             <p className='text'>Esistevano due principali modelli:</p>
             <ul className={classes["model-list"]}>
               <li className={classes["model"]}>
@@ -42,7 +42,7 @@ export default function Home() {
               </li>
             </ul>
           </div>
-          <div className={classes["container__right"]}>
+          <div className={`${classes["container__right"]}`}>
             <Image
               className={classes["img"]}
               src="/lorenz.jpg"
