@@ -1,0 +1,22 @@
+.iconLeft{
+    margin-top: 1.5rem;
+    margin-left: 4.7rem;
+}
+
+.iconCenter{
+    margin-top: 1rem;
+  
+}
+
+.iconRight{
+    margin-top: 1.5rem;
+    margin-right: 5.6rem;
+ 
+}
+
+.progress-bar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+}

@@ -1,0 +1,17 @@
+.link{
+    padding: .3rem 1.5rem;
+    padding-bottom: .6rem;
+    border-radius: 8px;
+    border: 2px solid #cf2ecf;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all .4s;
+    margin: 0 1rem;
+}
+
+.link:hover{
+    background: #cf2ecf;
+    
+}
+
